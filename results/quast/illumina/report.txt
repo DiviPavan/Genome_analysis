@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    efaecium.contigs  contigs 
+# contigs (>= 0 bp)         9                 33      
+# contigs (>= 1000 bp)      9                 17      
+# contigs (>= 5000 bp)      9                 15      
+# contigs (>= 10000 bp)     9                 14      
+# contigs (>= 25000 bp)     4                 12      
+# contigs (>= 50000 bp)     2                 11      
+Total length (>= 0 bp)      3135564           3139860 
+Total length (>= 1000 bp)   3135564           3136237 
+Total length (>= 5000 bp)   3135564           3128244 
+Total length (>= 10000 bp)  3135564           3118849 
+Total length (>= 25000 bp)  3048452           3083434 
+Total length (>= 50000 bp)  2979566           3042792 
+# contigs                   9                 17      
+Largest contig              2763566           653079  
+Total length                3135564           3136237 
+GC (%)                      37.79             37.70   
+N50                         2763566           390024  
+N90                         216000            140155  
+auN                         2451863.9         406889.9
+L50                         1                 3       
+L90                         2                 9       
+# N's per 100 kbp           0.00              0.00    
