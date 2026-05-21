@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -A uppmax2026-1-61
+#SBATCH -p pelle
+#SBATCH -n 2
+#SBATCH -t 01:00:00
+#SBATCH -J prokka_pacbio
+#SBATCH -o /home/padi4950/uppmax/efaecium_E745/logs/prokka_pacbio.out
+#SBATCH -e /home/padi4950/uppmax/efaecium_E745/logs/prokka_pacbio.err
+
+module load prokka
+
+prokka \
+/home/padi4950/uppmax/efaecium_E745/results/canu/pacbio/efaecium.contigs.fasta \
+--outdir /home/padi4950/uppmax/efaecium_E745/results/prokka \
+--prefix efaecium \
+--cpus 2
